@@ -1,0 +1,127 @@
+body {
+    background: #4e54c8;
+}
+
+header {
+    padding: 10px;
+    color: #fff;
+}
+
+.resultado {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.opciones {
+    display: flex;              /* Usa flexbox para alinear los botones horizontalmente */
+    justify-content: center;    /* Centra los botones horizontalmente dentro del contenedor */
+    margin: 50px 0;
+    gap: 25px;
+    border: 1px solid red;                  /* Espacio entre los botones */
+}
+
+.opcion {
+    width: 80px;
+    display: inline-flex;       /* Alinea el contenido del botón de manera flexible */
+    justify-content: center;    /* Centra el contenido dentro del botón */
+    align-items: center;        /* Centra el contenido verticalmente dentro del botón */
+    padding: 15px;
+    cursor: pointer;
+}
+body {
+    background: #4e54c8;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px;
+    color: #fff;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.resultado {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin: 20px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 25px; /* Ajusta el espacio entre los botones */
+    flex-wrap: wrap; /* Permite que los botones se ajusten a nuevas líneas si es necesario */
+}
+
+.opcion {
+    width: 80px;
+    height: 80px; /* Asegúrate de que los botones tengan una altura definida */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.opcion img {
+    max-width: 100%; /* Asegura que la imagen no se desborde del botón */
+    max-height: 100%; /* Asegura que la imagen se ajuste dentro del botón */
+}
+
+.opcion:hover {
+    background-color: rgb(20, 210, 235);
+    border-radius: 50%;
+}
+
+.ganador {
+    color: rgb(55, 235, 11);
+    font-size: 25px;
+}
+
+.perdedor {
+    color: rgb(241, 12, 12);
+    font-size: 25px;
+}
+
+.empate {
+    color: rgb(20, 210, 235);
+    font-size: 25px;
+}
+
+.opcion:hover {
+    background-color: rgb(20, 210, 235);
+    border-radius: 50%;
+}
+
+.ganador {
+    color: rgb(55, 235, 11);
+    font-size: 25px;
+}
+
+.perdedor {
+    color: rgb(241, 12, 12);
+    font-size: 25px;
+}
+
+.empate {
+    color: rgb(20, 210, 235);
+    font-size: 25px;
+}
+
+.ganador{
+    color: chartreuse;
+    font-size: 25px;
+}
+
+.perdedor{
+    color: chocolate;
+    font-size: 25px;
+}
+
+.empate{
+    color: brown;
+    font-size: 25px;
+}
